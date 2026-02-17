@@ -62,6 +62,9 @@ Estructurar el contenido de una página web mediante etiquetas HTML.
 ### Bonus track: Vídeo
 - Cambia la imagen de la página por un vídeo.
 
+### Bonus Bonus: Te atreves a darle estilo ??
+- Aplica CSS para tener una página perfecta,
+
 ### Validaciones:
 
 - Comprueba que tu página está correctamente estructurada con la herramienta: https://validator.w3.org/
