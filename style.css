@@ -1,0 +1,55 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fdfaf6;
+    margin: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navegación con los 4 elementos separados */
+nav {
+    background-color: #855b39;
+    padding: 20px 0;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around; /* Esto separa HOME, ABOUT US, MENU y CONTACT */
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #faedcd;
+}
+
+/* Estilos para el resto de la página */
+h1 { color: #855b39; text-align: center; }
+strong { color: #d4a373; }
+blockquote { 
+    font-style: italic; 
+    background: #f9f0e5; 
+    padding: 20px; 
+    border-left: 5px solid #d4a373; 
+}
+video { width: 100%; border-radius: 10px; }
+table { width: 100%; border-collapse: collapse; margin: 20px 0; background: white; }
+th, td { border: 1px solid #e6ccb2; padding: 12px; text-align: center; }
+th { background-color: #d4a373; color: white; }
+form { background: white; padding: 20px; border-radius: 10px; border: 1px solid #e6ccb2; }
+button { background: #855b39; color: white; border: none; padding: 10px; width: 100%; cursor: pointer; }
+footer { background: #e6ccb2; padding: 20px; text-align: center; margin-top: 30px; border-radius: 10px; }
