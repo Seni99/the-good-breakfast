@@ -57,6 +57,11 @@ h1 {
     font-style: normal;
     text-align: center;
 }
+h2 {
+    color: #855b39;
+    font-style: normal;
+    text-align: center;
+}
 p {
     text-align: center; /* Centra todos los párrafos */
 }
@@ -94,6 +99,36 @@ CSS
     width: 100%;
     height: 100%;
     border: none;
+}
+matcha-offer {
+    background-color: #ebf5e9; /* Un verde muy clarito */
+    border: 2px solid #4CAF50;  /* Verde matcha */
+    padding: 15px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 20px 0;
+    text-align: center;
+    align-items: center;
+}
+
+.badge {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.8rem;
+    text-align: center;
+    align-items: center;
+}
+
+.matcha-offer p {
+    margin: 0; /* Para que no use el margen de los párrafos normales */
+    color: #2e7d32;
+    text-align: center;
+    align-items: center;
 }
 video { width: 100%; border-radius: 10px; }
 table { width: 100%; border-collapse: collapse; margin: 20px 0; background: white; }
